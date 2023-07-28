@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>The human kind depends on this Rock Paper Scissors Game !!!</h1>
+      <div class="game">
+        <div class="score">
+          <span id="player-score">Player: 0</span>
+          <span id="computer-score">AI : 0</span>
+        </div>
+        <div class="options">
+          <button class="choice" onclick="playRound('Rock')">
+            <img src="rock.jpg" alt="Rock" />
+          </button>
+          <button class="choice" onclick="playRound('Paper')">
+            <img src="paper.jpg" alt="Paper"
+          </button>
+          <button class="choice" onclick="playRound('Scissors')">
+            <img src="scissors.jpg" alt="Scissors" Scissors
+          </button>
+        </div>
+        <div class="result" id="result">
+          Choose Rock, Paper, or Scissors to beat AI!
+        </div>
+      </div>
+    </div>
+    <script src="program.js"></script>
+  </body>
+</html>
